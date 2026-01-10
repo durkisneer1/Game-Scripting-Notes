@@ -76,7 +76,7 @@
         {
           "type": "data",
           "data": {
-            "text/html": "<figure style='display: flex; flex-direction: column;'><img src='./@file/27140-544-gIYkdu1l.png' style='width: 600px;margin: 0 auto' /><figcaption style='color: var(--muted-foreground); text-align: center; margin-top: 0.5rem;'>Fig 1.2: Variable representation in memory</figcaption></figure>"
+            "text/html": "<figure style='display: flex; flex-direction: column;'><img src='./@file/27140-13404-jHg8deco.png' style='width: 600px;margin: 0 auto' /><figcaption style='color: var(--muted-foreground); text-align: center; margin-top: 0.5rem;'>Fig 1.2: Variable representation in memory</figcaption></figure>"
           }
         }
       ],
@@ -109,8 +109,8 @@
       "console": []
     },
     {
-      "id": "nIDk",
-      "code_hash": "cadaffd44dfa9790d7ec5bc3bdada16f",
+      "id": "BYtC",
+      "code_hash": "1706917a50e236f52cdfd93ae52d8534",
       "outputs": [
         {
           "type": "data",
@@ -122,7 +122,7 @@
       "console": []
     },
     {
-      "id": "xqyQ",
+      "id": "RGSE",
       "code_hash": "a53b2a9ae89dc810e3e6d36364fe2d87",
       "outputs": [
         {
@@ -135,7 +135,7 @@
       "console": []
     },
     {
-      "id": "drHZ",
+      "id": "Kclp",
       "code_hash": "2927835690b389acf7d78d8f723c2eb9",
       "outputs": [
         {
@@ -148,7 +148,7 @@
       "console": []
     },
     {
-      "id": "Etux",
+      "id": "emfo",
       "code_hash": "ec6fe366f74c03413fae34dd7ac509d6",
       "outputs": [
         {
@@ -161,7 +161,7 @@
       "console": []
     },
     {
-      "id": "ubLl",
+      "id": "Hstk",
       "code_hash": "2927835690b389acf7d78d8f723c2eb9",
       "outputs": [
         {
@@ -174,7 +174,7 @@
       "console": []
     },
     {
-      "id": "tTxf",
+      "id": "nWHF",
       "code_hash": "ca01a7b49a7d68d8d40b9e195b2aff02",
       "outputs": [
         {
@@ -187,7 +187,33 @@
       "console": []
     },
     {
-      "id": "DoOU",
+      "id": "iLit",
+      "code_hash": "2927835690b389acf7d78d8f723c2eb9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Qgps",
+      "code_hash": "a2768319988730495834c1439cd2476b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"homework\">Homework</h1>\n<span class=\"paragraph\">Building upon sphere code above, print the percentage of the sphere's volume that the water amount takes up for any user input.</span>\n<span class=\"paragraph\">Then, reverse engineer the program to find and print the exact radius a sphere has to be to <strong>perfectly contain</strong> 2000 units of water.</span>\n<blockquote>\n<span class=\"paragraph\">Hint: You know the target volume. Use algebra to flip the volume formula to find the unknown radius instead.</span>\n</blockquote>\n<span class=\"paragraph\">I will be grading on correctness, syntax, and typing standards.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Wsih",
       "code_hash": "2927835690b389acf7d78d8f723c2eb9",
       "outputs": [
         {

@@ -157,5 +157,26 @@ def _():
     return
 
 
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    # Homework
+    Building upon sphere code above, print the percentage of the sphere's volume that the water amount takes up for any user input.
+
+    Then, reverse engineer the program to find and print the exact radius a sphere has to be to **perfectly contain** 2000 units of water.
+
+    > Hint: You know the target volume. Use algebra to flip the volume formula to find the unknown radius instead.
+
+    I will be grading on correctness, syntax, and typing standards.
+    """)
+    return
+
+
+@app.cell
+def _():
+    # Write code here
+    return
+
+
 if __name__ == "__main__":
     app.run()
