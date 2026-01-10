@@ -1,0 +1,91 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.19.0"
+  },
+  "cells": [
+    {
+      "id": "MJUe",
+      "code_hash": "550924ea8b0d7b504117bbae11fe9e99",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"section-11\">Section 1.1</h1>\n<blockquote>\n<span class=\"paragraph\"><strong>Python</strong> is the most popular and widely supported programming languages in modern day. It is an interpreted language with uses ranging from small, single-purpose applications to machine learning and data science.</span>\n</blockquote>\n<h2 id=\"io-operations\">I/O Operations</h2>\n<span class=\"paragraph\">Inputting and outputting character data in Python uses the two built-in functions, <code>input()</code> and <code>print()</code>, respectively.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "1c9cfabee83d28244ee2ddc804936c13",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"section-12\">Section 1.2</h1>\n<blockquote>\n<span class=\"paragraph\">Computers can represent data in the form of numbers, characters, true/false, and even in user-defined ways.</span>\n</blockquote>\n<h2 id=\"variables\">Variables</h2>\n<span class=\"paragraph\">Variables represent data stored in memory with an alias. They point to binary expressions, which can be in the form of different data types.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "c60097c45dc06cb817a40f42690a5bf3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"practice-1\">Practice 1</h3>\n<span class=\"paragraph\">Complete the code based on the image above.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hbol",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "2927835690b389acf7d78d8f723c2eb9",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "2927835690b389acf7d78d8f723c2eb9",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "d06f21c7460c5e425c65847aabe4b10a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<img src='./@file/27140-26216-hMtB3LKk.png' alt='Marimo logo' style='width: 800px;border-radius: 4px;margin: 0 auto' />"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "315fc27592269854e84502426c2227dd",
+      "outputs": [],
+      "console": []
+    }
+  ]
+}
