@@ -2,8 +2,13 @@
     "name": "Game Scripting Notes",
     "image": "mcr.microsoft.com/devcontainers/python:3.14",
 
+
     // Automatically installs marimo when the codespace is created
     "postCreateCommand": "pip install marimo",
+
+    "containerEnv": {
+        "MARIMO_NO_TOKEN": "true"
+    },
 
     // Configures the VS Code editor inside the browser
     "customizations": {
