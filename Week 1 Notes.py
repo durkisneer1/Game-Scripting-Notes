@@ -49,10 +49,9 @@ def _():
 @app.cell(hide_code=True)
 def _(mo):
     mo.image(
-        src=r"public\image.png",
-        alt="Marimo logo",
-        width=800,
-        rounded=True,
+        src="public/image.png",
+        width=600,
+        caption="Fig 1.2: Variable representation in memory",
         style={"margin": "0 auto"}
     )
     return
@@ -62,7 +61,7 @@ def _(mo):
 def _(mo):
     mo.md(r"""
     ### Practice 1
-    Complete the code based on the image above.
+    1. Complete the code based on the image above.
     """)
     return
 
@@ -73,6 +72,88 @@ def _():
     # food =
     # = False
     #
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    2. What is the data type of the variable `is_hit`?
+
+    3. What is the difference between the data presented by the variable `x` and by the varible `y`?
+
+    4. What might be a potential memory problem with strings if you're not careful, now seeing how they're represented in memory?
+    """)
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    # Section 1.3
+    > If you can tank of a mathematical formula, you can write it in code. Python natively supports basic arithmetic, but more advanced mathematical operations require external modules.
+
+    ## Mathematical Operations
+    Addition, subtraction, multiplication, and division operators are what you'd expect them to be, but there are a few others that can be very useful. All programming languages follow the order of operations (e.g., PEMDAS).
+    """)
+    return
+
+
+@app.cell
+def _():
+    # Write code here
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    # Section 1.4
+    > Computers user comparative operators to evaluate relationships between data -- an essential feature for decision-making in video games.
+
+    ## Comparative Operations
+    Every program you've ever used boils down to a compilation of decisions, and with every decision comes a comparison between two or more values.
+    """)
+    return
+
+
+@app.cell
+def _():
+    # Write code here
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    ### Practice 2
+
+    ```py
+    PI = 3.14
+
+    radius = float(input("Enter sphere radius: "))
+    volume = (4 / 3) * PI * radius**3
+
+    print(volume)
+    ```
+    1. What is the output of the program above if the user input was 6? (Round to the nearest tenth)
+
+    ```py
+    water_amount = 2000
+
+    print(water_amount <= volume)
+    ```
+
+    2. If the program has an output of `True`, what does this mean in the context of the program?
+
+    3. Give an example where a user input value _greater than_ `0` would result in the output being `False`.
+    """)
+    return
+
+
+@app.cell
+def _():
+    # Write code here
     return
 
 

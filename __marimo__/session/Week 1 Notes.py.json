@@ -5,6 +5,19 @@
   },
   "cells": [
     {
+      "id": "Hbol",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
       "id": "MJUe",
       "code_hash": "550924ea8b0d7b504117bbae11fe9e99",
       "outputs": [
@@ -12,6 +25,19 @@
           "type": "data",
           "data": {
             "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"section-11\">Section 1.1</h1>\n<blockquote>\n<span class=\"paragraph\"><strong>Python</strong> is the most popular and widely supported programming languages in modern day. It is an interpreted language with uses ranging from small, single-purpose applications to machine learning and data science.</span>\n</blockquote>\n<h2 id=\"io-operations\">I/O Operations</h2>\n<span class=\"paragraph\">Inputting and outputting character data in Python uses the two built-in functions, <code>input()</code> and <code>print()</code>, respectively.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "2927835690b389acf7d78d8f723c2eb9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
           }
         }
       ],
@@ -31,21 +57,8 @@
       "console": []
     },
     {
-      "id": "Xref",
-      "code_hash": "c60097c45dc06cb817a40f42690a5bf3",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"practice-1\">Practice 1</h3>\n<span class=\"paragraph\">Complete the code based on the image above.</span></span>"
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "Hbol",
-      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "id": "lEQa",
+      "code_hash": "2927835690b389acf7d78d8f723c2eb9",
       "outputs": [
         {
           "type": "data",
@@ -57,25 +70,26 @@
       "console": []
     },
     {
-      "id": "vblA",
-      "code_hash": "2927835690b389acf7d78d8f723c2eb9",
-      "outputs": [],
-      "console": []
-    },
-    {
-      "id": "lEQa",
-      "code_hash": "2927835690b389acf7d78d8f723c2eb9",
-      "outputs": [],
-      "console": []
-    },
-    {
       "id": "PKri",
-      "code_hash": "d06f21c7460c5e425c65847aabe4b10a",
+      "code_hash": "45778f8343f7bffc9dd2c594d7029135",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<img src='./@file/27140-26216-hMtB3LKk.png' alt='Marimo logo' style='width: 800px;border-radius: 4px;margin: 0 auto' />"
+            "text/html": "<figure style='display: flex; flex-direction: column;'><img src='./@file/27140-544-gIYkdu1l.png' style='width: 600px;margin: 0 auto' /><figcaption style='color: var(--muted-foreground); text-align: center; margin-top: 0.5rem;'>Fig 1.2: Variable representation in memory</figcaption></figure>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "059bbbf17a6508b094bdbdd921f7bcb1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"practice-1\">Practice 1</h3>\n<ol>\n<li>Complete the code based on the image above.</li>\n</ol></span>"
           }
         }
       ],
@@ -84,7 +98,105 @@
     {
       "id": "SFPL",
       "code_hash": "315fc27592269854e84502426c2227dd",
-      "outputs": [],
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nIDk",
+      "code_hash": "cadaffd44dfa9790d7ec5bc3bdada16f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><ol start=\"2\">\n<li>What is the data type of the variable <code>is_hit</code>?</li>\n<li>What is the difference between the data presented by the variable <code>x</code> and by the varible <code>y</code>?</li>\n<li>What might be a potential memory problem with strings if you're not careful, now seeing how they're represented in memory?</li>\n</ol></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "xqyQ",
+      "code_hash": "a53b2a9ae89dc810e3e6d36364fe2d87",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"section-13\">Section 1.3</h1>\n<blockquote>\n<span class=\"paragraph\">If you can tank of a mathematical formula, you can write it in code. Python natively supports basic arithmetic, but more advanced mathematical operations require external modules.</span>\n</blockquote>\n<h2 id=\"mathematical-operations\">Mathematical Operations</h2>\n<span class=\"paragraph\">Addition, subtraction, multiplication, and division operators are what you'd expect them to be, but there are a few others that can be very useful. All programming languages follow the order of operations (e.g., PEMDAS).</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "drHZ",
+      "code_hash": "2927835690b389acf7d78d8f723c2eb9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Etux",
+      "code_hash": "ec6fe366f74c03413fae34dd7ac509d6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"section-14\">Section 1.4</h1>\n<blockquote>\n<span class=\"paragraph\">Computers user comparative operators to evaluate relationships between data -- an essential feature for decision-making in video games.</span>\n</blockquote>\n<h2 id=\"comparative-operations\">Comparative Operations</h2>\n<span class=\"paragraph\">Every program you've ever used boils down to a compilation of decisions, and with every decision comes a comparison between two or more values.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ubLl",
+      "code_hash": "2927835690b389acf7d78d8f723c2eb9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "tTxf",
+      "code_hash": "ca01a7b49a7d68d8d40b9e195b2aff02",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"practice-2\">Practice 2</h3>\n<div class=\"language-py codehilite\"><pre><span></span><code><span class=\"n\">PI</span> <span class=\"o\">=</span> <span class=\"mf\">3.14</span>\n\n<span class=\"n\">radius</span> <span class=\"o\">=</span> <span class=\"nb\">float</span><span class=\"p\">(</span><span class=\"nb\">input</span><span class=\"p\">(</span><span class=\"s2\">&quot;Enter sphere radius: &quot;</span><span class=\"p\">))</span>\n<span class=\"n\">volume</span> <span class=\"o\">=</span> <span class=\"p\">(</span><span class=\"mi\">4</span> <span class=\"o\">/</span> <span class=\"mi\">3</span><span class=\"p\">)</span> <span class=\"o\">*</span> <span class=\"n\">PI</span> <span class=\"o\">*</span> <span class=\"n\">radius</span><span class=\"o\">**</span><span class=\"mi\">3</span>\n\n<span class=\"nb\">print</span><span class=\"p\">(</span><span class=\"n\">volume</span><span class=\"p\">)</span>\n</code></pre></div>\n<ol>\n<li>What is the output of the program above if the user input was 6? (Round to the nearest tenth)</li>\n</ol>\n<div class=\"language-py codehilite\"><pre><span></span><code><span class=\"n\">water_amount</span> <span class=\"o\">=</span> <span class=\"mi\">2000</span>\n\n<span class=\"nb\">print</span><span class=\"p\">(</span><span class=\"n\">water_amount</span> <span class=\"o\">&lt;=</span> <span class=\"n\">volume</span><span class=\"p\">)</span>\n</code></pre></div>\n<ol start=\"2\">\n<li>If the program has an output of <code>True</code>, what does this mean in the context of the program?</li>\n<li>Give an example where a user input value <em>greater than</em> <code>0</code> would result in the output being <code>False</code>.</li>\n</ol></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "DoOU",
+      "code_hash": "2927835690b389acf7d78d8f723c2eb9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
       "console": []
     }
   ]
