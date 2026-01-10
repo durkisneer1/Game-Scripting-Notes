@@ -1,0 +1,20 @@
+{
+    "name": "Game Scripting Notes",
+    "image": "mcr.microsoft.com/devcontainers/python:3.14",
+
+    // Automatically installs marimo when the codespace is created
+    "postCreateCommand": "pip install marimo",
+
+    // Configures the VS Code editor inside the browser
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance"
+            ]
+        }
+    },
+
+    // Opens the marimo port so students can see their notebook
+    "forwardPorts": [2718]
+}
