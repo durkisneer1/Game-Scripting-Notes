@@ -17,7 +17,7 @@ These digital packets allow you to run code, view diagrams, and add your own cus
         ```bash
         marimo edit <filename>.py --no-token
         ```
-        *Replace `<filename>` with the name of the note file you want to open (e.g., `Week 1 Notes.py`).*
+        *Replace `<filename>` with the name of the note file you want to open (e.g., `"Week 1 Notes.py"`).*
     - The `--no-token` flag ensures you aren't delayed by a password screen caused by the Codespace's port forwarding.
 
 ## Saving Your Work
