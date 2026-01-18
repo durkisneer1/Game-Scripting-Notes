@@ -15,7 +15,7 @@ These digital packets allow you to run code, view diagrams, and add your own cus
 
     - Once the editor loads in your browser, look at the Terminal at the bottom and type:
         ```bash
-        marimo edit <filename>.py --no-token
+        marimo edit "filename.py" --no-token
         ```
         *Replace `<filename>` with the name of the note file you want to open (e.g., `"Week 1 Notes.py"`).*
     - The `--no-token` flag ensures you aren't delayed by a password screen caused by the Codespace's port forwarding.
