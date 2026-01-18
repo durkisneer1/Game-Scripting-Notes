@@ -1,0 +1,255 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.19.0"
+  },
+  "cells": [
+    {
+      "id": "ohOi",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "kdNd",
+      "code_hash": "8da78040ab5ff9b9d90bbdd9c7cb7967",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"section-21\">Section 2.1</h1>\n<blockquote>\n<span class=\"paragraph\">Strings exist in every programming language, as it's <strong>the</strong> way to represent text in computers. The term \"string\" comes from it being a \"string of characters\". They're essentially chained characters in memory.</span>\n</blockquote>\n<h2 id=\"formatted-strings\">Formatted Strings</h2>\n<span class=\"paragraph\">The most common approach when placing extra information next to variable values is with a formatted string. You can use concatenation, percent formatting, the format method, or f-strings for this purpose.</span>\n<span class=\"paragraph\"><em>Concatenation:</em><br>\n<code>\"Hello, \" + str(name) + \", how are you?\"</code></span>\n<span class=\"paragraph\"><em>Percent formatting:</em><br>\n<code>\"Hello, %s, how are you?\" % name</code></span>\n<span class=\"paragraph\"><em>Format method:</em><br>\n<code>\"Hello, {}, how are you?\".format(name)</code></span>\n<span class=\"paragraph\"><em>F-String:</em><br>\n<code>f\"Hello, {name}, how are you?\"</code></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "dccn",
+      "code_hash": "d3eb95a7f1d7eed32cf5b42938473624",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "uRvb",
+      "code_hash": "724417f241747c3d6f36962cf26c7567",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"substring-replacement\">Substring Replacement</h2>\n<span class=\"paragraph\">Sometimes in a live chat room, you need to censor certain words. You can use the <code>replace</code> method to swap out substrings with another. This is a case-sensitive operation.</span>\n<span class=\"paragraph\"><em>Syntax:</em><br>\n<code>str.replace(old, new, count)</code></span>\n<ul>\n<li><code>old</code>: The substring you want to replace</li>\n<li><code>new</code>: The new substring to insert in its place</li>\n<li><code>count</code> (optional): The max number of occurances to replace. If omitted, all occurrances are replaced.</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "asVx",
+      "code_hash": "d3eb95a7f1d7eed32cf5b42938473624",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "jDgy",
+      "code_hash": "b950411e291c56dae104211e9ccb24be",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"splitting-and-joining-strings\">Splitting and Joining Strings</h2>\n<span class=\"paragraph\">One of the most used string methods for game dev. The split method allows for parsing words in a user input, and the join method does the opposite. Think of these as a string-to-list bridge.</span>\n<span class=\"paragraph\"><em>Syntax</em>:<br>\n<code>str.split(separator, maxsplit)</code></span>\n<ul>\n<li><code>separator</code> (optional): The delimiter to use for splitting the string. If not specified, whitespace is used.</li>\n<li><code>maxsplit</code> (optional): The max number of splits to perform.</li>\n</ul>\n<span class=\"paragraph\"><code>separator.join(iterable)</code></span>\n<ul>\n<li><code>separator</code>: The string that will be inserted between each element of the iterable.</li>\n<li><code>iterable</code>: An array-like data structure containing only string elements to be joined.</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "AcbX",
+      "code_hash": "d3eb95a7f1d7eed32cf5b42938473624",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "WhYR",
+      "code_hash": "37fc0445c1a09b21bf712fc0597f5968",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"searching-for-substrings-in-strings\">Searching for Substrings in Strings</h2>\n<span class=\"paragraph\">You can use the <code>in</code> keyword to check if a substring exists in another string. It could be used for detecting keyword usage in a user input.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "OxQu",
+      "code_hash": "d3eb95a7f1d7eed32cf5b42938473624",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "EPvj",
+      "code_hash": "1c73a54b48f344d94fc3bab6af74016b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"practice-1\">Practice 1</h2>\n<div class=\"language-py codehilite\"><pre><span></span><code><span class=\"n\">player_name</span> <span class=\"o\">=</span> <span class=\"nb\">input</span><span class=\"p\">(</span><span class=\"s2\">&quot;Enter a username: &quot;</span><span class=\"p\">)</span>\n<span class=\"nb\">print</span><span class=\"p\">(</span><span class=\"s2\">&quot;Welcome to Townsville, </span><span class=\"si\">{player_name}</span><span class=\"s2\">!&quot;</span><span class=\"p\">)</span>\n\n<span class=\"n\">new_message</span> <span class=\"o\">=</span> <span class=\"nb\">input</span><span class=\"p\">()</span>\n<span class=\"n\">filtered_message</span> <span class=\"o\">=</span> <span class=\"n\">new_message</span><span class=\"o\">.</span><span class=\"n\">replace</span><span class=\"p\">(</span><span class=\"s2\">&quot;nerd&quot;</span><span class=\"p\">,</span> <span class=\"s2\">&quot;****&quot;</span><span class=\"p\">)</span>\n<span class=\"nb\">print</span><span class=\"p\">(</span><span class=\"sa\">f</span><span class=\"s2\">&quot;</span><span class=\"si\">{}</span><span class=\"s2\"> says </span><span class=\"si\">{}</span><span class=\"s2\">&quot;</span><span class=\"p\">)</span>\n</code></pre></div>\n<ol>\n<li>Will line 2 output the string we intend to? If not, how can you fix it?</li>\n<li>What goes in both formatted sections of the f-string in line 6?</li>\n<li>What is the output of line 6 if the input of \"You're a nerd!\" was assigned to <code>new_message</code>?</li>\n</ol></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bCHS",
+      "code_hash": "9563451dd27667f90433bd803d72ddc6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"section-22\">Section 2.2</h1>\n<blockquote>\n<span class=\"paragraph\">Like comparative operators, you can use logical operators to get a boolean output from a boolean expression. You can check if two values are true, at least one is, or even invert a value.</span>\n</blockquote>\n<h2 id=\"logical-operations\">Logical Operations</h2>\n<span class=\"paragraph\">To perform boolean arithmetic, you'll need these keywords (ordered by priority):</span>\n<ol>\n<li><code>not</code> - Invert a boolean</li>\n<li><code>and</code> - Check if booleans on both sides are <code>True</code> </li>\n<li><code>or</code> - Check if at least one boolean on either side is <code>True</code></li>\n</ol>\n<span class=\"paragraph\">With <code>and</code>, if the left-hand side boolean is <code>False</code>, it will <em>short-circuit</em>, which can be used to your advantage to <em>reduce nesting</em>. Similary, <code>or</code> will short-curcuit if the left-hand side boolean is <code>True</code>. </span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "fAsh",
+      "code_hash": "d3eb95a7f1d7eed32cf5b42938473624",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "mcJI",
+      "code_hash": "b3c386f36b9aa8cc5bb90d29e6c1ac69",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"practice-2\">Practice 2</h2>\n<div class=\"language-py codehilite\"><pre><span></span><code><span class=\"n\">a</span> <span class=\"o\">=</span> <span class=\"s2\">&quot;hello&quot;</span>\n<span class=\"n\">b</span> <span class=\"o\">=</span> <span class=\"s2\">&quot;hi&quot;</span>\n<span class=\"n\">x</span> <span class=\"o\">=</span> <span class=\"kc\">False</span>\n\n<span class=\"nb\">print</span><span class=\"p\">(</span><span class=\"nb\">len</span><span class=\"p\">(</span><span class=\"n\">a</span><span class=\"p\">)</span> <span class=\"o\">&gt;</span> <span class=\"nb\">len</span><span class=\"p\">(</span><span class=\"n\">b</span><span class=\"p\">)</span> <span class=\"ow\">and</span> <span class=\"n\">b</span> <span class=\"o\">==</span> <span class=\"s2\">&quot;hi&quot;</span><span class=\"p\">)</span>\n<span class=\"nb\">print</span><span class=\"p\">(</span><span class=\"ow\">not</span> <span class=\"n\">x</span> <span class=\"ow\">or</span> <span class=\"n\">a</span> <span class=\"o\">!=</span> <span class=\"s2\">&quot;hello&quot;</span><span class=\"p\">)</span>\n</code></pre></div>\n<ol>\n<li>What is the output of line 5?</li>\n<li>What is the output of line 6?</li>\n<li>Which boolean would I get if I compared the variables <code>a</code> and <code>b</code> with the <code>==</code> operator?</li>\n</ol></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "xOiH",
+      "code_hash": "3fc9e948e7b2f219a59b5db37615e8ce",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"section-23\">Section 2.3</h1>\n<blockquote>\n<span class=\"paragraph\">Everything that has to do with computers is based on boolean algebra, from adding two numbers to calculating billions of matrices within a second. To achieve these feats, hundreds of thousands of scientists and engineers over decades needed to optimize how boolean expressions are processed in a computer.</span>\n</blockquote>\n<h2 id=\"boolean-algebra-laws\">Boolean Algebra Laws</h2>\n<table>\n<thead>\n<tr>\n<th>Law</th>\n<th>Math</th>\n<th>Code</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>De Morgan's</td>\n<td><marimo-tex class=\"arithmatex\">||(\\neg a \\wedge \\neg b \\equiv \\neg(a \\vee b)||)</marimo-tex></td>\n<td><code>not a and not b == not (a or b)</code></td>\n</tr>\n<tr>\n<td>Double Negation</td>\n<td><marimo-tex class=\"arithmatex\">||(\\neg(\\neg a) \\equiv a||)</marimo-tex></td>\n<td><code>not (not a) == a</code></td>\n</tr>\n<tr>\n<td>Identity</td>\n<td><marimo-tex class=\"arithmatex\">||(a \\wedge 1 \\equiv a||)</marimo-tex> <br> <marimo-tex class=\"arithmatex\">||(a \\vee 0 \\equiv a||)</marimo-tex></td>\n<td><code>a and True == a</code> <br> <code>a or False == a</code></td>\n</tr>\n<tr>\n<td>Domination</td>\n<td><marimo-tex class=\"arithmatex\">||(a \\vee 1 \\equiv 1||)</marimo-tex> <br> <marimo-tex class=\"arithmatex\">||(a \\wedge 0 \\equiv 0||)</marimo-tex></td>\n<td><code>a or True == True</code> <br> <code>a and False == False</code></td>\n</tr>\n<tr>\n<td>Idempotent</td>\n<td><marimo-tex class=\"arithmatex\">||(a \\vee a \\equiv a||)</marimo-tex> <br> <marimo-tex class=\"arithmatex\">||(a \\wedge a \\equiv a||)</marimo-tex></td>\n<td><code>a or a == a</code> <br> <code>a and a == a</code></td>\n</tr>\n<tr>\n<td>Complement</td>\n<td><marimo-tex class=\"arithmatex\">||(a \\vee \\neg a \\equiv 1||)</marimo-tex> <br> <marimo-tex class=\"arithmatex\">||(a \\wedge \\neg a \\equiv 0||)</marimo-tex></td>\n<td><code>a or not a == True</code> <br> <code>a and not a == False</code></td>\n</tr>\n<tr>\n<td>Absorption</td>\n<td><marimo-tex class=\"arithmatex\">||(a \\vee (a \\wedge b) \\equiv a||)</marimo-tex> <br> <marimo-tex class=\"arithmatex\">||(a \\wedge (a \\vee b) \\equiv a||)</marimo-tex></td>\n<td><code>a or (a and b) == a</code> <br> <code>a and (a or b) == a</code></td>\n</tr>\n</tbody>\n</table></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "JCQy",
+      "code_hash": "d3eb95a7f1d7eed32cf5b42938473624",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nmbI",
+      "code_hash": "e20c96ed092d145832ae5f2b4e89cead",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"practice-3\">Practice 3</h2>\n<span class=\"paragraph\">Translate the following English sentence into Boolean expressions in Python:</span>\n<ol>\n<li>The light is on.</li>\n<li>You can ride the rollercoaster if you are taller than 48 inches and not afraid of heights.</li>\n<li>Send a reminder if the task is overdue or if it's due today and the user hasn't checked it off yet.</li>\n<li>Show the discount if the customer is a premium member, or if it's Black Friday and they're added at least one sale item to their cart, all unless the coupon has already been applied.</li>\n</ol></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "CGJY",
+      "code_hash": "15eab65b7a3cfd3edb3d51dc5766c63c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"section-24\">Section 2.4</h1>\n<blockquote>\n<span class=\"paragraph\">In order for programs to have different outcomes based on different inputs, it must have <strong>branches</strong>. The different outcomes of these branches are chosen by conditionals, a combination of comparative and/or logical operations.</span>\n</blockquote>\n<h2 id=\"branching\">Branching</h2>\n<span class=\"paragraph\">To branch in Python, or almost every modern programming language, you need <code>if</code>, <code>elif</code> (else if), and <code>else</code> statements.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "QBbO",
+      "code_hash": "d3eb95a7f1d7eed32cf5b42938473624",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MINq",
+      "code_hash": "7f309785323a296e8df5122ba33360a4",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"practice-4\">Practice 4</h2>\n<div class=\"language-py codehilite\"><pre><span></span><code><span class=\"n\">age</span> <span class=\"o\">=</span> <span class=\"nb\">int</span><span class=\"p\">(</span><span class=\"nb\">input</span><span class=\"p\">(</span><span class=\"s2\">&quot;Enter age: &quot;</span><span class=\"p\">))</span>\n\n<span class=\"k\">if</span> <span class=\"n\">age</span> <span class=\"o\">&gt;=</span> <span class=\"mi\">65</span><span class=\"p\">:</span>\n    <span class=\"nb\">print</span><span class=\"p\">(</span><span class=\"s2\">&quot;You can retire&quot;</span><span class=\"p\">)</span>\n<span class=\"k\">elif</span> <span class=\"n\">age</span> <span class=\"o\">&gt;=</span> <span class=\"mi\">35</span><span class=\"p\">:</span>\n    <span class=\"nb\">print</span><span class=\"p\">(</span><span class=\"s2\">&quot;You can become president&quot;</span><span class=\"p\">)</span>\n<span class=\"k\">elif</span> <span class=\"n\">age</span> <span class=\"o\">&gt;=</span> <span class=\"mi\">18</span><span class=\"p\">:</span>\n    <span class=\"nb\">print</span><span class=\"p\">(</span><span class=\"s2\">&quot;You can vote&quot;</span><span class=\"p\">)</span>\n<span class=\"k\">elif</span> <span class=\"n\">age</span> <span class=\"o\">&gt;=</span> <span class=\"mi\">16</span><span class=\"p\">:</span>\n    <span class=\"nb\">print</span><span class=\"p\">(</span><span class=\"s2\">&quot;You can drive&quot;</span><span class=\"p\">)</span>\n<span class=\"k\">else</span><span class=\"p\">:</span>\n    <span class=\"nb\">print</span><span class=\"p\">(</span><span class=\"s2\">&quot;Not old enough for anything yet&quot;</span><span class=\"p\">)</span>\n</code></pre></div>\n<ol>\n<li>After reading the code, what can you conclude the purpose of the program is?</li>\n<li>What would be the output if a user were to input the number 20?</li>\n<li>If the <code>elif</code>s were all <code>if</code>s instead, what would then be the output for the input of 20?</li>\n</ol></span>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
